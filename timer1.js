@@ -10,3 +10,5 @@ const beepAt = (seconds) => {
 const alarms = process.argv.slice(2);
 
 alarms.forEach(alarm => beepAt(alarm));
+
+module.exports = beepAt;
